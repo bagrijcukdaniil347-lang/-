@@ -1,0 +1,54 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(133, 201, 233);
+}
+.card {
+  width: 300px;
+  margin: 50px auto;
+  border-radius: 20px;
+}
+.card:hover {
+  box-shadow: 0 0 15 px greenyellow;
+}
+.card img {
+  width: 300px;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+.card h3 {
+  margin-bottom: 10px;
+}
+.card p {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-style: italic;
+}
+.card button{
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 5px;
+  border: none;
+  background-color: aquamarine;
+  color:aliceblue;
+  font-size: 18px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.card span{
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: arial;
+}
+.card .price{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.card .sale {
+  text-decoration: none;
+  color: aqua;
+}
